@@ -1,0 +1,218 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+}
+
+.halft-width {
+  padding-top: 25px;
+  width: 50%;
+  float: left;
+}
+
+.image-aria img {
+  width: 100%;
+  transition: 1s;
+}
+
+.image-aria img:hover {
+  transform: translate(15px);
+}
+
+.btn {
+  padding: 12px 42px;
+  background-image: linear-gradient(45deg, #EC5299, #ED4B6F);
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 20px;
+  border-radius: 7px;
+}
+
+.btn:hover {
+  background-image: linear-gradient(-45deg, #EC5299, #ED4B6F);
+}
+
+h3, h2 {
+  color: #202428;
+}
+
+p {
+  font-size: 16px;
+  color: #707070;
+}
+
+.section-title {
+  padding: 50px 0 40px 0;
+}
+
+.section-title h2 {
+  text-align: center;
+  font-size: 35px;
+  font-weight: 600;
+}
+
+/* Header section Styles */
+
+.header-section {
+  background-image: url("./images/header-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 60px 0;
+}
+
+.header-section::after {
+  clear: both;
+  display: block;
+  content: '';
+}
+
+.text-aria {
+  padding-left: 35%;
+  margin-top: 15%;
+}
+
+.text-aria h3 {
+  font-weight: 400;
+  font-size: 30px;
+  margin-bottom: -25px;
+}
+
+.text-aria h2 {
+  font-size: 35px;
+  color: #EC4C7A;
+  font-weight: 700;
+}
+
+.header-left p {
+  padding: 25px 0 25px 0;
+}
+
+.header-right .image-aria {
+  padding-right: 15%;
+}
+
+/* Biography section Styles */
+
+.biography {
+  background-image: url("./images/biography-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.biography::after {
+  display: block;
+  clear: both;
+  content: '';
+}
+
+.biography-left .image-aria {
+  padding: 15%;
+}
+
+.biography-text-aria {
+  padding-left: 10%;
+  padding-top: 30%;
+}
+
+.biography-text-aria h3 {
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.biography-text-aria p {
+  padding-bottom: 35px;
+  text-align: justify;
+}
+
+/* lates Work Aria Style */
+
+.latest-work {
+  background-image: url("./images/latest-work-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 50px;
+}
+
+.work-aria {
+  padding: 0 10%;
+}
+
+.work-aria::after {
+  display: block;
+  clear: both;
+  content: "";
+}
+
+.single-work {
+  max-width: 32%;
+  float: left;
+}
+
+.single-work:last-child {
+  float: right;
+}
+
+.work-aria .second {
+  padding: 0 2%;
+}
+
+.single-work img {
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+}
+
+/* Client Aria Styles */
+
+.clinent-review {
+  background-image: url("./images/footer-bg.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: left;
+  padding: 50px 0;
+}
+
+.review-author {
+  text-align: center;
+}
+
+.review-author h3 {
+  margin-bottom: -10px;
+  text-align: center;
+}
+
+.contact-aria {
+  margin: 50px 0;
+}
+
+.review {
+  margin-top: 25px;
+}
+
+.content {
+  width: 45%;
+  margin: 0 auto;
+  text-align: center;
+  color: #fff;
+  border-radius: 9px;
+  padding: 15px 25px 35px 25px;
+  background-image: linear-gradient(45deg, #EC5299, #ED4B6F);
+}
+
+.content p {
+  color: #fff;
+}
+
+.content:hover {
+  background-image: linear-gradient(-45deg, #EC5299, #ED4B6F);
+}
+
+.content a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 25px;
+  padding-bottom: 25px;
+}
+
+footer {
+  text-align: center;
+  padding-bottom: 20px;
+}
