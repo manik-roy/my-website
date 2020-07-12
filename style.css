@@ -186,7 +186,6 @@ p {
 .review {
   margin-top: 25px;
 }
-
 .content {
   width: 45%;
   margin: 0 auto;
@@ -211,7 +210,7 @@ p {
   font-size: 25px;
   padding-bottom: 25px;
 }
-
+/* Footer Aria Styles */
 footer {
   text-align: center;
   padding-bottom: 20px;
